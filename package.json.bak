@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "rootDir": "../",
+	"testMatch": ["<rootDir>/WebUIJest/**/*.test.js"],
+	"collectCoverage": true,
+	"collectCoverageFrom": ["<rootDir>/WebUI/Scripts/GSS/Common/*.js"],
+    "coverageDirectory": "<rootDir>/WebUIJest/coverage/",
+    "modulePaths": ["<rootDir>/WebUI/Scripts/GSS/Common"]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

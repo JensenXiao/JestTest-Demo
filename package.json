@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "test": "jest --verbose",
+    "debug": "jest --debug"
+  },
+  "jest": {
+    "rootDir": "../",
+    "roots": [
+      "<rootDir>/JestTest-Demo"
+    ],
+    "setupFiles": [
+      "<rootDir>/JestTest-Demo/setupTests.js"
+    ],
+    "testMatch": [
+      "<rootDir>/JestTest-Demo/**/*.test.js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "<rootDir>/JestTest-Demo/Source/*.js"
+    ],
+    "coverageDirectory": "<rootDir>/JestTest-Demo/Coverage/",
+    "moduleDirectories": [
+      "node_modules",
+	  "JestTest-Demo/Source"
+    ],
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "axios-mock-adapter": "^1.22.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-mock-axios": "^4.7.3",
+    "jsdom": "^24.0.0"
+  },
+  "dependencies": {
+    "@progress/kendo-ui": "^2024.1.130",
+    "i18next": "^23.8.2",
+    "jquery": "^3.7.1",
+    "jquery-blockui": "^2.7.0",
+    "jquery-simulate": "^1.0.2"
+  }
+}
