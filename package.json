@@ -16,12 +16,12 @@
     ],
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "<rootDir>/JestTest-Demo/Source/*.js"
+      "<rootDir>/JestTest-Demo/src/*.js"
     ],
-    "coverageDirectory": "<rootDir>/JestTest-Demo/Coverage/",
+    "coverageDirectory": "<rootDir>/JestTest-Demo/coverage/",
     "moduleDirectories": [
       "node_modules",
-	  "JestTest-Demo/Source"
+	  "JestTest-Demo/src"
     ],
     "testEnvironment": "jest-environment-jsdom"
   },

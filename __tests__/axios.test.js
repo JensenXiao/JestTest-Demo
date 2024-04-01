@@ -1,6 +1,6 @@
 const axios = require('axios');
 const MockAdapter = require('axios-mock-adapter');
-const { MockAxios } = require('../Source/axios');
+const { MockAxios } = require('../src/axios');
 
 // 模擬 axios
 jest.mock('axios');
